@@ -13,11 +13,11 @@ const uint8_t PIN_COUNT = 8;
 const unsigned long FRAME_TIME = 1000 / 45;
 
 const bool correctA[PIN_COUNT] = {
-    1,1,1,1,0,0,0,0
+    0,0,1,1,0,0,1,1
 };
 
 const bool correctB[PIN_COUNT] = {
-    0,0,0,0,1,1,1,1
+    0,1,1,0,0,1,1,0
 };
 
 class PinState {
